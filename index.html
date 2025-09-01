@@ -70,7 +70,7 @@
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="content">
         <h1>勉強会・講演会情報</h1>
         
         <div class="month-section">
@@ -98,7 +98,7 @@
             
             <div class="event">
                 <a href="pdfs/2025年7月24日エーザイ講演会大阪北部.pdf" class="pdf-icon" target="_blank">PDF チラシ</a>
-                <div class="event-info"><strong>名称</strong>：Alzheimer's Disease Network Conference in 大阪北部</div>
+                <div class="event-info"><strong>名称</strong>：Alzheimer\'s Disease Network Conference in 大阪北部</div>
                 <div class="event-info"><strong>主催者</strong>：エーザイ株式会社、バイオジェン・ジャパン株式会社</div>
                 <div class="event-info"><strong>日時</strong>：2025年7月24日(木) 19:30-20:40</div>
                 <div class="event-info"><strong>開催形式</strong>：現地のみ</div>
@@ -146,6 +146,26 @@
             </div>
         </div>
     </div>
+    <script>
+        // パスワードを設定
+        const correctPassword = "miyako69229090";
+
+        function authenticate() {
+            let password = prompt("このページにアクセスするにはパスワードが必要です。");
+            if (password === correctPassword) {
+                document.getElementById("content").style.display = "block";
+            } else {
+                alert("パスワードが間違っています。\n再度お試しください。");
+                authenticate(); // 間違っていたら再度プロンプトを表示
+            }
+        }
+
+        // ページ読み込み時にコンテンツを非表示にし、認証を開始
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("content").style.display = "none";
+            authenticate();
+        });
+    </script>
 </body>
 </html>
 
