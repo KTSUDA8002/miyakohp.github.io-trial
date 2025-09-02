@@ -1,15 +1,16 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//My calendar product//mxm.dk//
+PRODID:-//Manus Agent//Event Calendar//JP
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
 BEGIN:VEVENT
 SUMMARY:WEB講演会 アキュミンR静注 臨床使用開始から 1年
  間の足跡
 DTSTART;TZID=Asia/Tokyo:20250904T190000
 DTEND;TZID=Asia/Tokyo:20250904T194500
-DESCRIPTION:主催者: 日本メジフィジックス株式会社\n開催
- 形式: オンライン(Zoom Webinar)
-LOCATION:オンライン(Zoom Webinar)
-ORGANIZER;CN=日本メジフィジックス株式会社:mailto:info@exampl
- e.com
+DTSTAMP:20250902T043012Z
+UID:20250904_webinar@miyakohp.github.io
+DESCRIPTION:開催形式：オンライン(ライブ)のみ
+ORGANIZER:日本メジフィジックス株式会社
 END:VEVENT
 END:VCALENDAR

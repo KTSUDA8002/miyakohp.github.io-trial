@@ -3,7 +3,7 @@ from datetime import datetime
 import pytz
 
 # 日本標準時のタイムゾーン
-jst = pytz.timezone('Asia/Tokyo')
+jst = pytz.timezone("Asia/Tokyo")
 
 # 既存のイベント情報（元のウェブサイトから抽出）
 events = [
@@ -48,6 +48,16 @@ events = [
         "location": "守口文化センター・エナジーホール (京阪電車・守口市駅前)"
     },
     {
+        "filename": "20250904_webinar.ics",
+        "title": "WEB講演会 アキュミンR静注 臨床使用開始から 1年間の足跡",
+        "organizer": "日本メジフィジックス株式会社",
+        "start_date": "2025-09-04",
+        "start_time": "19:00",
+        "end_time": "19:45",
+        "format": "オンライン(ライブ)のみ",
+        "location": "なし"
+    },
+    {
         "filename": "20251011_conference.ics",
         "title": "Brain Function Imaging Conference",
         "organizer": "日本メジフィジックス株式会社",
@@ -56,6 +66,16 @@ events = [
         "end_time": "17:10",
         "format": "ハイブリッド形式（現地＆オンライン）およびオンデマンド",
         "location": "なし"
+    },
+    {
+        "filename": "20251004_kansai_user_meeting.ics",
+        "title": "第9回 関西ユーザ会",
+        "organizer": "PSP株式会社",
+        "start_date": "2025-10-04",
+        "start_time": "14:30",
+        "end_time": "19:30",
+        "format": "現地のみ",
+        "location": "大阪御堂筋ビル 貸し会議室（Ｍ3 会議室） 〒541-0056 大阪市中央区久太郎町 4-1-3 大阪御堂筋ビル地下 4 階"
     }
 ]
 
