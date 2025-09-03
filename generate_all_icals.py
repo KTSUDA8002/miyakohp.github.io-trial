@@ -29,7 +29,7 @@ events = [
     },
     {
         "filename": "20250724_conference.ics",
-        "title": "Alzheimer's Disease Network Conference in 大阪北部",
+        "title": "Alzheimer\\\\'s Disease Network Conference in 大阪北部",
         "organizer": "エーザイ株式会社、バイオジェン・ジャパン株式会社",
         "start_date": "2025-07-24",
         "start_time": "19:30",
@@ -58,13 +58,23 @@ events = [
         "location": "なし"
     },
     {
+        "filename": "20250919_training.ics",
+        "title": "弘道会9月合同研修会",
+        "organizer": "弘道会",
+        "start_date": "2025-09-19",
+        "start_time": "18:00",
+        "end_time": "20:00",
+        "format": "現地のみ",
+        "location": "守口文化センター・エナジーホール (京阪電車・守口市駅前)"
+    },
+    {
         "filename": "20251011_conference.ics",
         "title": "Brain Function Imaging Conference",
         "organizer": "日本メジフィジックス株式会社",
         "start_date": "2025-10-11",
         "start_time": "12:55",
         "end_time": "17:10",
-        "format": "ハイブリッド形式（現地＆オンライン）およびオンデマンド",
+        "format": "オンライン(ライブ+追いかけ再生)および別内容をオンデマンド配信",
         "location": "なし"
     },
     {
@@ -82,15 +92,15 @@ events = [
 def create_ical_file(event_info):
     # カレンダーオブジェクトを作成
     cal = Calendar()
-    cal.add('prodid', '-//Manus Agent//Event Calendar//JP')
-    cal.add('version', '2.0')
-    cal.add('calscale', 'GREGORIAN')
-    cal.add('method', 'PUBLISH')
+    cal.add("prodid", "-//Manus Agent//Event Calendar//JP")
+    cal.add("version", "2.0")
+    cal.add("calscale", "GREGORIAN")
+    cal.add("method", "PUBLISH")
     
     # イベントオブジェクトを作成
     event = Event()
-    event.add('summary', event_info['title'])
-    event.add('organizer', event_info['organizer'])
+    event.add("summary", event_info["title"])
+    event.add("organizer", event_info["organizer"])
     
     # 日時の設定（日本標準時）
     start_datetime = datetime.strptime(f"{event_info['start_date']} {event_info['start_time']}", "%Y-%m-%d %H:%M")
@@ -100,25 +110,25 @@ def create_ical_file(event_info):
     start_datetime_jst = jst.localize(start_datetime)
     end_datetime_jst = jst.localize(end_datetime)
     
-    event.add('dtstart', start_datetime_jst)
-    event.add('dtend', end_datetime_jst)
+    event.add("dtstart", start_datetime_jst)
+    event.add("dtend", end_datetime_jst)
     
     # 説明とロケーション
     description = f"開催形式：{event_info['format']}"
-    event.add('description', description)
+    event.add("description", description)
     
-    if event_info['location'] != "なし":
-        event.add('location', event_info['location'])
+    if event_info["location"] != "なし":
+        event.add("location", event_info["location"])
     
     # 作成日時
-    event.add('dtstamp', datetime.now(jst))
-    event.add('uid', f"{event_info['filename'].replace('.ics', '')}@miyakohp.github.io")
+    event.add("dtstamp", datetime.now(jst))
+    event.add("uid", f"{event_info['filename'].replace('.ics', '')}@miyakohp.github.io")
     
     # カレンダーにイベントを追加
     cal.add_component(event)
     
     # ファイルに保存
-    with open(f"icals/{event_info['filename']}", 'wb') as f:
+    with open(f"icals/{event_info['filename']}", "wb") as f:
         f.write(cal.to_ical())
     
     print(f"iCalファイルを生成しました: {event_info['filename']}")
@@ -128,4 +138,5 @@ for event in events:
     create_ical_file(event)
 
 print("全てのiCalファイルの生成が完了しました。")
+
 

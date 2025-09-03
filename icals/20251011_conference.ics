@@ -7,10 +7,10 @@ BEGIN:VEVENT
 SUMMARY:Brain Function Imaging Conference
 DTSTART;TZID=Asia/Tokyo:20251011T125500
 DTEND;TZID=Asia/Tokyo:20251011T171000
-DTSTAMP:20250902T043012Z
+DTSTAMP:20250903T093738Z
 UID:20251011_conference@miyakohp.github.io
-DESCRIPTION:開催形式：ハイブリッド形式（現地＆オンラ
- イン）およびオンデマンド
+DESCRIPTION:開催形式：オンライン(ライブ+追いかけ再生)
+ および別内容をオンデマンド配信
 ORGANIZER:日本メジフィジックス株式会社
 END:VEVENT
 END:VCALENDAR
