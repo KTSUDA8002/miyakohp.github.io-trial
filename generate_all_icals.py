@@ -29,7 +29,7 @@ events = [
     },
     {
         "filename": "20250724_conference.ics",
-        "title": "Alzheimer\\\\'s Disease Network Conference in 大阪北部",
+        "title": "Alzheimer\\\\\\\'s Disease Network Conference in 大阪北部",
         "organizer": "エーザイ株式会社、バイオジェン・ジャパン株式会社",
         "start_date": "2025-07-24",
         "start_time": "19:30",
@@ -58,6 +58,16 @@ events = [
         "location": "なし"
     },
     {
+        "filename": "20250916_webinar.ics",
+        "title": "Dementia Live Seminar",
+        "organizer": "エーザイ株式会社／バイオジェン・ジャパン株式会社",
+        "start_date": "2025-09-16",
+        "start_time": "19:00",
+        "end_time": "20:00",
+        "format": "Live配信",
+        "location": "東京会場より Live配信"
+    },
+    {
         "filename": "20250919_training.ics",
         "title": "弘道会9月合同研修会",
         "organizer": "弘道会",
@@ -66,6 +76,16 @@ events = [
         "end_time": "20:00",
         "format": "現地のみ",
         "location": "守口文化センター・エナジーホール (京阪電車・守口市駅前)"
+    },
+    {
+        "filename": "20250924_webinar.ics",
+        "title": "症例から学ぶ中枢神経領域の画像診断 〜脊髄・脊椎領域の押さえておくべきトピック2025〜",
+        "organizer": "ゲルべ・ジャパン株式会社",
+        "start_date": "2025-09-24",
+        "start_time": "19:00",
+        "end_time": "19:40",
+        "format": "WEBセミナー",
+        "location": "なし"
     },
     {
         "filename": "20251011_conference.ics",
