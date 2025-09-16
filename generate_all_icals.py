@@ -29,7 +29,7 @@ events = [
     },
     {
         "filename": "20250724_conference.ics",
-        "title": "Alzheimer\\\\\\\'s Disease Network Conference in 大阪北部",
+        "title": "Alzheimer\\\\\\\\\'s Disease Network Conference in 大阪北部",
         "organizer": "エーザイ株式会社、バイオジェン・ジャパン株式会社",
         "start_date": "2025-07-24",
         "start_time": "19:30",
@@ -78,7 +78,7 @@ events = [
         "location": "守口文化センター・エナジーホール (京阪電車・守口市駅前)"
     },
     {
-        "filename": "20250924_webinar.ics",
+        "filename": "20250924_guerbet_webinar.ics",
         "title": "症例から学ぶ中枢神経領域の画像診断 〜脊髄・脊椎領域の押さえておくべきトピック2025〜",
         "organizer": "ゲルべ・ジャパン株式会社",
         "start_date": "2025-09-24",
@@ -86,6 +86,26 @@ events = [
         "end_time": "19:40",
         "format": "WEBセミナー",
         "location": "なし"
+    },
+    {
+        "filename": "20250924_GE_webinar.ics",
+        "title": "GE HealthCare Webinar 2025 :PET/CT最新技術と臨床応用",
+        "organizer": "GE HealthCare",
+        "start_date": "2025-09-24",
+        "start_time": "18:00",
+        "end_time": "19:00",
+        "format": "Microsoft Teams 事前登録制",
+        "location": "なし"
+    },
+    {
+        "filename": "20251004_kansai_user_meeting.ics",
+        "title": "第9回 関西ユーザ会",
+        "organizer": "PSP株式会社",
+        "start_date": "2025-10-04",
+        "start_time": "14:30",
+        "end_time": "19:30",
+        "format": "現地のみ",
+        "location": "大阪御堂筋ビル 貸し会議室（Ｍ3 会議室） 〒541-0056 大阪市中央区久太郎町 4-1-3 大阪御堂筋ビル地下 4 階"
     },
     {
         "filename": "20251011_conference.ics",
@@ -98,14 +118,14 @@ events = [
         "location": "なし"
     },
     {
-        "filename": "20251004_kansai_user_meeting.ics",
-        "title": "第9回 関西ユーザ会",
-        "organizer": "PSP株式会社",
-        "start_date": "2025-10-04",
-        "start_time": "14:30",
-        "end_time": "19:30",
-        "format": "現地のみ",
-        "location": "大阪御堂筋ビル 貸し会議室（Ｍ3 会議室） 〒541-0056 大阪市中央区久太郎町 4-1-3 大阪御堂筋ビル地下 4 階"
+        "filename": "20251026_tauvid.ics",
+        "title": "タウヴィッド®静注（一般名：flortaucipir(18F)) 読影トレーニング",
+        "organizer": "PDRファーマ株式会社",
+        "start_date": "2025-10-26",
+        "start_time": "09:00",
+        "end_time": "13:00",
+        "format": "オンサイト開催",
+        "location": "THE OSAKA STATION HOTEL 中宴会場SUN 〒530-0001 大阪市北区梅田3-2-2 JPタワー大阪KITTE大阪7階"
     }
 ]
 
