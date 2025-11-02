@@ -190,23 +190,28 @@
 
             // 場所（存在する場合）
             if (event.location) {
-                // URLの場合はリンクとして表示
+                // URLの場合はリンクとして表示（左揃え）
                 if (event.location.startsWith('http')) {
                     const locationInfo = document.createElement('div');
                     locationInfo.className = 'event-info';
-                    locationInfo.innerHTML = `<strong>場所</strong>：<a href="${event.location}" class="download-link" target="_blank">${event.location}</a>`;
+                    const locationLink = document.createElement('a');
+                    locationLink.href = event.location;
+                    locationLink.className = 'download-link';
+                    locationLink.target = '_blank';
+                    locationLink.textContent = `場所: ${event.location}`;
+                    locationInfo.appendChild(locationLink);
                     eventDiv.appendChild(locationInfo);
                 } else {
                     infoItems.push({ label: '場所', value: event.location });
                 }
             }
 
-            // 通常の情報項目を追加
+            // 通常の情報項目を追加（左揃え）
             infoItems.forEach(item => {
                 if (item.value) {
                     const infoDiv = document.createElement('div');
                     infoDiv.className = 'event-info';
-                    infoDiv.innerHTML = `<strong>${item.label}</strong>：${item.value}`;
+                    infoDiv.textContent = `${item.label}: ${item.value}`;
                     eventDiv.appendChild(infoDiv);
                 }
             });
@@ -219,11 +224,15 @@
                 eventDiv.appendChild(noteDiv);
             }
 
-            // iCalリンク
+            // iCalリンク（左揃え）
             if (event.ical) {
                 const icalInfo = document.createElement('div');
                 icalInfo.className = 'event-info';
-                icalInfo.innerHTML = `<strong>iCal形式</strong>：<a href="${event.ical}" class="download-link">データをダウンロード</a>`;
+                const icalLink = document.createElement('a');
+                icalLink.href = event.ical;
+                icalLink.className = 'download-link';
+                icalLink.textContent = 'iCal形式: データをダウンロード';
+                icalInfo.appendChild(icalLink);
                 eventDiv.appendChild(icalInfo);
             }
 
