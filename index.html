@@ -116,11 +116,18 @@
             const grouped = {};
             events.forEach(event => {
                 const date = new Date(event.date);
-                const monthKey = `${date.getFullYear()}年${date.getMonth() + 1}月`;
-                if (!grouped[monthKey]) {
-                    grouped[monthKey] = [];
+                const year = date.getFullYear();
+                const month = date.getMonth() + 1;
+                // ソート用のキー（YYYY-MM形式）と表示用のキーを両方保存
+                const sortKey = `${year}-${month.toString().padStart(2, '0')}`;
+                const displayKey = `${year}年${month}月`;
+                if (!grouped[sortKey]) {
+                    grouped[sortKey] = {
+                        displayKey: displayKey,
+                        events: []
+                    };
                 }
-                grouped[monthKey].push(event);
+                grouped[sortKey].events.push(event);
             });
             return grouped;
         }
@@ -133,21 +140,22 @@
             // 月ごとにグループ化
             const groupedEvents = groupEventsByMonth(events);
 
-            // 月ごとに表示
-            Object.keys(groupedEvents).sort().forEach(monthKey => {
+            // 月ごとに表示（ソートキーで日付順にソート）
+            Object.keys(groupedEvents).sort().forEach(sortKey => {
+                const monthData = groupedEvents[sortKey];
                 const monthSection = document.createElement('div');
                 monthSection.className = 'month-section';
 
                 const monthTitle = document.createElement('div');
                 monthTitle.className = 'month-title';
-                monthTitle.textContent = `＜ ${monthKey} ＞`;
+                monthTitle.textContent = `＜ ${monthData.displayKey} ＞`;
                 monthSection.appendChild(monthTitle);
 
                 // その月のイベントを日付順にソート
-                groupedEvents[monthKey].sort((a, b) => new Date(a.date) - new Date(b.date));
+                monthData.events.sort((a, b) => new Date(a.date) - new Date(b.date));
 
                 // 各イベントを表示
-                groupedEvents[monthKey].forEach(event => {
+                monthData.events.forEach(event => {
                     const eventDiv = createEventElement(event);
                     monthSection.appendChild(eventDiv);
                 });
