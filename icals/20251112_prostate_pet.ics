@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Medical Conference//JP
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Tokyo:20251112T193000
+DTEND;TZID=Asia/Tokyo:20251112T203000
+DTSTAMP:20251106T151209Z
+UID:20251112@miyakohp.github.io
+SUMMARY:前立腺癌におけるPET検査：読影のいろは
+DESCRIPTION:Novartis講演会\n\n第1部: これから始めるPSMA-PET：読影ポイントと臨床活用\n座長: 志賀 哲 先生（福島県立医科大学）\n演者: 平田 健司 先生（北海道大学大学院医学研究院）\n\n第2部: Understanding the Role of PSMA-PET in Selecting Patients for PSMA-Targeted Therapy\n座長: Prof. Dr. Ken Herrmann (University Hospital Essen, Germany)\n演者: Prof. Phillip Kuo (City of Hope, Duarte, CA, USA)\n\n参加登録: https://gjm.pw/psma251112\n連絡先: masatoshi.kitahama@novartis.com
+LOCATION:ホテル日航プリンセス京都 3F「ローズ」/ オンライン同時配信
+ORGANIZER:CN=ノバルティスファーマ株式会社
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR
