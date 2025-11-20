@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Medical Conference//JP
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Tokyo:20251210T190000
+DTEND;TZID=Asia/Tokyo:20251210T200000
+DTSTAMP:20251120T163232Z
+UID:20251210@miyakohp.github.io
+SUMMARY:次世代画像診断を考える会 2025
+DESCRIPTION:次世代画像診断を考える会 2025\n\n総合司会:\n- 大阪国際がんセンター 副院長 西村 和郎 先生\n- 大阪国際がんセンター 放射線診断・IVR科 主任部長 柏木 伸夫 先生\n\n講演1: 核医学治療（30分）\n「Lu177-PSMA治療と当院における特別措置病室整備の取組」\n演者: 大阪国際がんセンター アイソトープ診療科 副部長 松永 恵子 先生\n\n講演2: WB-MRI（30分）\n「泌尿器科×放射線科の協働が拓く WB-MRIの真価」\n演者: 熊本中央病院 放射線科 部長 片平 和博 先生\n\n参加登録締切: 12月9日\n連絡先: jun.yoshikawa@astellas.com
+LOCATION:オンライン（Microsoft Teams）
+ORGANIZER:CN=アステラス製薬株式会社
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

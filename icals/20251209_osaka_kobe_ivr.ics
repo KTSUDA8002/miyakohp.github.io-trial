@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Medical Conference//JP
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Tokyo:20251209T185000
+DTEND;TZID=Asia/Tokyo:20251209T201000
+DTSTAMP:20251120T163232Z
+UID:20251209@miyakohp.github.io
+SUMMARY:第28回大阪神戸腹部画像・IVR医学研究会
+DESCRIPTION:第28回大阪神戸腹部画像・IVR医学研究会\n\n会費: 1,000円（医学生、初期研修医は無料）\n\nプログラム:\n- ワンポイントレクチャー（10分×4演題）\n  座長: 神戸大学大学院医学研究科 放射線医学分野 教授 村上 卓道 先生\n- 特別講演（30分）\n  座長: 大阪医科薬科大学 放射線診断学教室 教授 大須 賀慎信 先生\n  演者: 大阪医科薬科大学 放射線診断学教室 講師 中井 豪 先生\n\n場所: ホテルグランヴィア大阪20階「鳳凰A」\n住所: 大阪市北区梅田3丁目1番1号\nTEL: 06-6344-1235\n\n総合司会: 医療法人友紘会 彩都友紘会病院 病院長 中村 仁信 先生
+LOCATION:ホテルグランヴィア大阪20階「鳳凰A」
+ORGANIZER:CN=大阪神戸腹部画像・IVR医学研究会 / ゲルベ・ジャパン株式会社
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

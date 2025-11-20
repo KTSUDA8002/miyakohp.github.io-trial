@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Medical Conference//JP
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Tokyo:20251213T140000
+DTEND;TZID=Asia/Tokyo:20251213T175500
+DTSTAMP:20251120T163232Z
+UID:20251213@miyakohp.github.io
+SUMMARY:第31回 New Horizon for Neurosciences - アルツハイマー病の深淵を探る
+DESCRIPTION:第31回 New Horizon for Neurosciences\nテーマ: アルツハイマー病の深淵を探る\n\nプログラム:\n- 基調講演: アルツハイマー病総論\n- 指名講演1: アミロイドβからアルツハイマー病を理解する\n- 指名講演2: アルツハイマー病における病理の理解と診断・治療へのインパクト\n- 指名講演3: アルツハイマー病における神経炎症のメカニズムと制御戦略の模索\n- 指名講演4: 脳血管の視点からアルツハイマー病を診る\n- 視聴者参加型セッション: 症例討論\n- 指名講演5: 抗Aβ抗体薬時代における認知症診療\n\n事前登録URL: https://zoom.us/webinar/register/6817597970198/WN_rd9z7KXYS6mjYOhWCo45uA\n連絡先: hiroaki.fukuoka@pdradiopharma.com TEL: 03-5250-2621\n\n※本会は日本医学会より3単位、日本核医学専門技師認定機構より3単位、\n  日本核医学技術学会単位取得認定制度より1単位がそれぞれ認定されております
+LOCATION:オンライン（Zoomウェビナー）
+ORGANIZER:CN=PDRファーマ株式会社
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR
