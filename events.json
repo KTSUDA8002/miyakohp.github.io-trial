@@ -198,7 +198,18 @@
       "location": "Zoomウェビナー",
       "pdf": "pdfs/20251213_neurosciences.pdf",
       "ical": "icals/20251213_neurosciences.ics"
+    },
+    {
+      "id": "20251218_amyloid_pet",
+      "date": "2025-12-18",
+      "time": "18:30-19:30",
+      "title": "アミロイドPETは診療の羅針盤となるか？～実臨床での課題と活用～",
+      "organizer": "日本イーライリリー株式会社 / PDRファーマ株式会社",
+      "format": "オンライン",
+      "location": "Zoomウェビナー",
+      "pdf": "pdfs/20251218_amyloid_pet.pdf",
+      "ical": "icals/20251218_amyloid_pet.ics"
     }
   ],
-  "last_updated": "2025-11-20 02:33:07"
+  "last_updated": "2025-12-01 00:05:29"
 }

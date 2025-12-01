@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Medical Conference//JP
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Tokyo:20251218T183000
+DTEND;TZID=Asia/Tokyo:20251218T193000
+DTSTAMP:20251201T140516Z
+UID:20251218@miyakohp.github.io
+SUMMARY:アミロイドPETは診療の羅針盤となるか？～実臨床での課題と活用～
+DESCRIPTION:アミロイドPETは診療の羅針盤となるか？～実臨床での課題と活用～\n\nプログラム:\n\n18:30-18:40 オープニングリマークス\n「定量指標の概要：ガイドライン、現状と課題」\n総合座長: 石井 賢二 先生（東京都健康長寿医療センター研究所）\n\n18:40-18:50 講演①\n「定量指標の考え方：放射線科の読影医の立場から」\n演者: 松田 博史 先生（日本医科大学健診医療センター）\n\n18:50-19:00 講演②\n「臨床医としてアミロイドPETの結果をどう伝えるか？」\n演者: 井原 涼子 先生（東京都健康長寿医療センター）\n\n19:00-19:30 ディスカッション\n「読影医と治療医のコミュニケーション」\n\n事前登録URL: https://zoom.us/webinar/register/4017616342511/WN_XVewVWRiSfmu1TyG1KBdRQ\nイベントID: 944 7846 8520\nパスワード: 251218
+LOCATION:オンライン（Zoomウェビナー）
+ORGANIZER:CN=日本イーライリリー株式会社 / PDRファーマ株式会社
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR
