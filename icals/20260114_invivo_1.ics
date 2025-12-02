@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Medical Conference//JP
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Tokyo:20260114T180000
+DTEND;TZID=Asia/Tokyo:20260114T184500
+DTSTAMP:20251202T134931Z
+UID:20260114@miyakohp.github.io
+SUMMARY:WEB版 IN VIVO講習会「核医学DX編」第1回
+DESCRIPTION:WEB版 IN VIVO講習会「核医学DX編」第1回\n\n18:00-18:15\n「次世代核医学を支えるPDRの挑戦 かずさ新工場とDISPENSER Version Up」\n演者: PDRファーマ株式会社 製品戦略部 杉原 寛史\n\n18:15-18:45\n「検診施設におけるBridgea・フルギバルドーズの運用」\n演者: ハイメディッククリニック中之島 放射線課 谷口 麻里子 先生\n\n事前登録URL: https://zoom.us/webinar/register/WN_AvUuGY8YSqu5x4xnNR0J9a\nウェビナーID: 990 7788 6382\nパスワード: 1966686\n\n※一度の登録で3回分すべての視聴登録が完了します
+LOCATION:オンライン（Zoom）
+ORGANIZER:CN=PDRファーマ株式会社
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

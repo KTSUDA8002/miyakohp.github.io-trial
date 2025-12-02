@@ -209,7 +209,40 @@
       "location": "Zoomウェビナー",
       "pdf": "pdfs/20251218_amyloid_pet.pdf",
       "ical": "icals/20251218_amyloid_pet.ics"
+    },
+    {
+      "id": "20260114_invivo_1",
+      "date": "2026-01-14",
+      "time": "18:00-18:45",
+      "title": "WEB版 IN VIVO講習会「核医学DX編」第1回",
+      "organizer": "PDRファーマ株式会社",
+      "format": "オンライン",
+      "location": "Zoom",
+      "pdf": "pdfs/202601_invivo_series.pdf",
+      "ical": "icals/20260114_invivo_1.ics"
+    },
+    {
+      "id": "20260121_invivo_2",
+      "date": "2026-01-21",
+      "time": "18:00-18:45",
+      "title": "WEB版 IN VIVO講習会「核医学DX編」第2回",
+      "organizer": "PDRファーマ株式会社",
+      "format": "オンライン",
+      "location": "Zoom",
+      "pdf": "pdfs/202601_invivo_series.pdf",
+      "ical": "icals/20260121_invivo_2.ics"
+    },
+    {
+      "id": "20260128_invivo_3",
+      "date": "2026-01-28",
+      "time": "18:00-18:45",
+      "title": "WEB版 IN VIVO講習会「核医学DX編」第3回",
+      "organizer": "PDRファーマ株式会社",
+      "format": "オンライン",
+      "location": "Zoom",
+      "pdf": "pdfs/202601_invivo_series.pdf",
+      "ical": "icals/20260128_invivo_3.ics"
     }
   ],
-  "last_updated": "2025-12-01 00:05:29"
+  "last_updated": "2025-12-01 23:50:05"
 }

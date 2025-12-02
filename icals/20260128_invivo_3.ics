@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Medical Conference//JP
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Tokyo:20260128T180000
+DTEND;TZID=Asia/Tokyo:20260128T184500
+DTSTAMP:20251202T134931Z
+UID:20260128@miyakohp.github.io
+SUMMARY:WEB版 IN VIVO講習会「核医学DX編」第3回
+DESCRIPTION:WEB版 IN VIVO講習会「核医学DX編」第3回\n\n18:00-18:15\n「Bridgea・ontiを用いた核医学領域における電子化の試み」\n演者: PDRファーマ株式会社 製品戦略部 村川 亮介\n\n18:15-18:45\n「見える化による核医学ワークフローの最適化『onti dandori』が拓く核医学DX」\n演者: 名古屋市立大学病院 診療技術部 放射線技術科 北川 裕人 先生\n\n事前登録URL: https://zoom.us/webinar/register/WN_AvUuGY8YSqu5x4xnNR0J9a\nウェビナーID: 990 7788 6382\nパスワード: 1966686\n\n※一度の登録で3回分すべての視聴登録が完了します\n※開催までに事前登録いただいた先生には、会終了後に見逃し配信のご案内メールを送付する予定です
+LOCATION:オンライン（Zoom）
+ORGANIZER:CN=PDRファーマ株式会社
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR
