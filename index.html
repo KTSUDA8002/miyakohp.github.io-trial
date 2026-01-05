@@ -140,8 +140,15 @@
             const container = document.getElementById('events-container');
             container.innerHTML = '';
 
+            // 2026年1月1日以降のイベントのみをフィルタリング
+            const filteredEvents = events.filter(event => {
+                const eventDate = new Date(event.date);
+                const cutoffDate = new Date('2026-01-01');
+                return eventDate >= cutoffDate;
+            });
+
             // 月ごとにグループ化
-            const groupedEvents = groupEventsByMonth(events);
+            const groupedEvents = groupEventsByMonth(filteredEvents);
 
             // 月ごとに表示（ソートキーで日付順にソート）
             Object.keys(groupedEvents).sort().forEach(sortKey => {
