@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Medical Conference//JP
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Tokyo:20260207T143000
+DTEND;TZID=Asia/Tokyo:20260207T170000
+DTSTAMP:20260105T113048Z
+UID:20260207@miyakohp.github.io
+SUMMARY:第141回 核医学症例検討会
+DESCRIPTION:第141回 核医学症例検討会\n\n【座長】\n・天理よろづ相談所病院 寺口 昌和 先生\n・神戸大学医学部附属病院 野上 宗伸 先生（古十善輔）\n\n【プログラム】\n● 症例検討・ちょっと1枚（計18題予定）\n\n● 特別講演\n「私のFDG-PET読影レポート、お見せします。...こんなんでいいですか？？」\n講師: 中谷 航也 先生\n（京都大学大学院医学研究科 放射線医学講座 画像診断学・核医学）\n\n※会終了後、情報交換会を予定しております\n\n【認定点数】\n・日本核医学会 3単位\n・日本核医学専門技師認定機構 3単位\n\n【参加登録】\n事前参加登録制（現地、Web問わず）\n登録期限: 2026年2月6日（金）12:00まで\nURL: https://lpage.nmp.co.jp/NuclearConference141.html\n\n【連絡先】\n日本メジフィジックス株式会社 営業本部 営業部 関西支店 桐谷 俊太\ne-mail: shunta_kiriya@nmp.co.jp\nmobile: 080-8943-3777
+LOCATION:APイノゲート大阪「J+Kルーム」（大阪市北区梅田3丁目2-123 イノゲート大阪 11階）/ Web配信
+ORGANIZER:CN=日本メジフィジックス株式会社
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

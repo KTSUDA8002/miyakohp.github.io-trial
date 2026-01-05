@@ -242,7 +242,18 @@
       "location": "Zoom",
       "pdf": "pdfs/202601_invivo_series.pdf",
       "ical": "icals/20260128_invivo_3.ics"
+    },
+    {
+      "id": "20260207_nuclear_case",
+      "date": "2026-02-07",
+      "time": "14:30-17:00",
+      "title": "第141回 核医学症例検討会",
+      "organizer": "日本メジフィジックス株式会社",
+      "format": "ハイブリッド",
+      "location": "APイノゲート大阪「J+Kルーム」/ Web配信",
+      "pdf": "pdfs/20260207_nuclear_case.pdf",
+      "ical": "icals/20260207_nuclear_case.ics"
     }
   ],
-  "last_updated": "2025-12-01 23:50:05"
+  "last_updated": "2026-01-04 21:31:03"
 }
