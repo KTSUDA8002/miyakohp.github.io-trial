@@ -233,6 +233,17 @@
       "ical": "icals/20260121_invivo_2.ics"
     },
     {
+      "id": "20260124_osaka_dementia",
+      "date": "2026-01-24",
+      "time": "15:00-16:50",
+      "title": "大阪認知症診療ネットワーク 第2回講演会",
+      "organizer": "大阪認知症診療ネットワーク / 日本イーライリリー株式会社",
+      "format": "現地",
+      "location": "スイスホテル南海大阪 8F「浪華」",
+      "pdf": "pdfs/20260124_osaka_dementia.pdf",
+      "ical": "icals/20260124_osaka_dementia.ics"
+    },
+    {
       "id": "20260128_invivo_3",
       "date": "2026-01-28",
       "time": "18:00-18:45",
@@ -255,5 +266,5 @@
       "ical": "icals/20260207_nuclear_case.ics"
     }
   ],
-  "last_updated": "2026-01-04 21:31:03"
+  "last_updated": "2026-01-13 00:14:15"
 }
