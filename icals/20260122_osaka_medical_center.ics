@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Medical Conference//JP
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Tokyo:20260122T120000
+DTEND;TZID=Asia/Tokyo:20260205T120000
+DTSTAMP:20260115T163659Z
+UID:20260122@miyakohp.github.io
+SUMMARY:大阪市立総合医療センター 市民医学講座「認知症を知ろう！」
+DESCRIPTION:大阪市立総合医療センター 市民医学講座\n「認知症を知ろう！～診断からケアまで、やさしく学ぶ認知症のいは～」\n\n配信期間: 2026年1月22日（木） 12:00 ～ 2026年2月5日（木） 12:00\n視聴: 無料\n\n【プログラム】\n\n1. 「認知症の診断のしかた」\n   脳神経内科 部長 三枝 隆博\n\n2. 「新しいアルツハイマー病の治療薬『レカネマブ』における検査・適応・投与法・副作用について」\n   精神神経科 部長 甲斐 利弘\n\n3. 「認知症について」\n   認知症看護認定看護師 寺内 宏恵\n\n【視聴方法】\n病院のホームページまたはQRコードからアクセス\n視聴用URL: http://onl.tw/qDdEWP8\n\n【お問合せ】\n大阪市立総合医療センター 地域医療連携センター\nTEL: 06-6929-1221（代表）\nURL: http://www.osaka-city-hp.or.jp/ocgh/\n\n※このイベントは配信期間中いつでも視聴可能なオンデマンド形式です。
+LOCATION:オンライン（WEB開催）
+ORGANIZER:CN=大阪市立総合医療センター 地域医療連携センター
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

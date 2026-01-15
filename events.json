@@ -233,6 +233,17 @@
       "ical": "icals/20260121_invivo_2.ics"
     },
     {
+      "id": "20260122_osaka_medical_center",
+      "date": "2026-01-22",
+      "time": "12:00-2026-02-05 12:00",
+      "title": "大阪市立総合医療センター 市民医学講座「認知症を知ろう！」",
+      "organizer": "大阪市立総合医療センター 地域医療連携センター",
+      "format": "オンライン",
+      "location": "WEB開催（配信期間: 2026年1月22日～2月5日）",
+      "pdf": "pdfs/20260122_osaka_medical_center.pdf",
+      "ical": "icals/20260122_osaka_medical_center.ics"
+    },
+    {
       "id": "20260124_osaka_dementia",
       "date": "2026-01-24",
       "time": "15:00-16:50",
@@ -255,6 +266,17 @@
       "ical": "icals/20260128_invivo_3.ics"
     },
     {
+      "id": "20260131_new_clear_imaging",
+      "date": "2026-01-31",
+      "time": "14:00-17:30",
+      "title": "第14回 New Clear Imaging Conference",
+      "organizer": "PDRファーマ株式会社",
+      "format": "現地",
+      "location": "ブリーゼプラザ 小ホール",
+      "pdf": "pdfs/20260131_new_clear_imaging.pdf",
+      "ical": "icals/20260131_new_clear_imaging.ics"
+    },
+    {
       "id": "20260207_nuclear_case",
       "date": "2026-02-07",
       "time": "14:30-17:00",
@@ -266,5 +288,5 @@
       "ical": "icals/20260207_nuclear_case.ics"
     }
   ],
-  "last_updated": "2026-01-13 00:14:15"
+  "last_updated": "2026-01-15 02:37:23"
 }

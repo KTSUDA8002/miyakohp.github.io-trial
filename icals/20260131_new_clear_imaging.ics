@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Medical Conference//JP
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Tokyo:20260131T140000
+DTEND;TZID=Asia/Tokyo:20260131T173000
+DTSTAMP:20260115T163659Z
+UID:20260131@miyakohp.github.io
+SUMMARY:第14回 New Clear Imaging Conference
+DESCRIPTION:第14回 New Clear Imaging Conference\n\n【プログラム】\n\n14:00~14:05 Opening Remarks\n大阪公立大学大学院医学研究科 核医学 准教授 東山 滋明 先生\n\n14:05~14:35 技術講演\n座長: MIクリニック 桃井 理紗 先生\n『これからの線量管理を温故知新でアップデート！-核医学 × ontiの実際』\n滋賀県立総合病院 放射線部 藤田 喜治 先生\n\n14:35~15:20 指名講演\n座長: 京都府立医科大学 小谷 知也 先生\n『抗アミロイドβ抗体治療時代におけるアミロイドPETと脳血流SPECTの役割』\n大阪公立大学大学院医学研究科 脳神経内科学 講師 武田 景敏 先生\n\n15:30~16:00 教育講演 I\n座長: 大阪大学 種橋 佳也子 先生\n『神経芽腫の診断と治療～I-131 MIBG治療への期待～』\n大阪大学大学院医学系研究科 小児科学 准教授 宮村 能子 先生\n\n16:00~16:30 教育講演 II\n座長: 大阪公立大学 東山 滋明 先生\n『前立腺がんにおける68Ga-PSMA PET/CT 検査』\nMIクリニック 院長 岡田 篤哉 先生\n\n16:40~17:25 特別講演\n座長: 大阪公立大学 東山 滋明 先生\n『ドイツにおけるPSMA等セラノスティクスの実際と展望』\nユリウス・マクシミリアン大学ヴュルツブルク 核医学 教授 樋口 隆弘 先生\n\n17:25~17:30 Closing Remarks\n東北大学病院/仙台画像検診クリニック 院長 木曽 啓祐 先生\n\n情報交換会\n\n【認定単位】\n・日本核医学会専門医（認定数: 3単位）\n・日本核医学専門技師認定機構 核医学専門技師（認定数: 3単位）\n\n【連絡先】\nPDRファーマ株式会社 関西支店\nTEL: 0120-062-051
+LOCATION:ブリーゼプラザ 小ホール（大阪市北区梅田2-4-9 ブリーゼタワー 7階）
+ORGANIZER:CN=PDRファーマ株式会社
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR
