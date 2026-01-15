@@ -9,6 +9,14 @@
         --title "イベント名" --organizer "主催者名" \
         --format "オンライン" --location "場所" \
         --pdf "pdfs/20251215_event.pdf" --ical "icals/20251215_event.ics"
+
+日時表記ガイドライン:
+    - 単発イベント: "HH:MM-HH:MM" (例: "19:00-20:30")
+    - 配信期間イベント: "配信期間: YYYY年M月D日 HH:MM ～ YYYY年M月D日 HH:MM"
+      (例: "配信期間: 2026年1月22日 12:00 ～ 2026年2月5日 12:00")
+    - 複合イベント: --time にライブ配信時間、--note にオンデマンド配信期間を記載
+
+詳細は event_guideline.md を参照してください。
 """
 
 import json
@@ -60,14 +68,14 @@ def main():
     parser = argparse.ArgumentParser(description='イベントをevents.jsonに追加')
     parser.add_argument('--id', required=True, help='イベントID (例: 20251215_event)')
     parser.add_argument('--date', required=True, help='日付 (YYYY-MM-DD形式)')
-    parser.add_argument('--time', required=True, help='時刻 (例: 18:30-19:30)')
+    parser.add_argument('--time', required=True, help='時刻 (単発: "18:30-19:30", 配信期間: "配信期間: 2026年1月22日 12:00 ～ 2026年2月5日 12:00")')
     parser.add_argument('--title', required=True, help='イベント名')
     parser.add_argument('--organizer', required=True, help='主催者名')
     parser.add_argument('--format', required=True, help='開催形式 (例: オンライン, 現地のみ)')
     parser.add_argument('--location', default='', help='場所')
     parser.add_argument('--pdf', default='', help='PDFファイルのパス')
     parser.add_argument('--ical', default='', help='iCalファイルのパス')
-    parser.add_argument('--note', default='', help='追加メモ')
+    parser.add_argument('--note', default='', help='追加メモ (複合イベントの場合、オンデマンド配信期間を記載)')
     
     args = parser.parse_args()
     
