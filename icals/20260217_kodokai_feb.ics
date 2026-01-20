@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Miyako HP//Event Calendar//JP
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:20260217_kodokai_feb@miyakohp.github.io
+DTSTAMP:20260120T020500Z
+DTSTART;TZID=Asia/Tokyo:20260217T180000
+DTEND;TZID=Asia/Tokyo:20260217T200000
+SUMMARY:弘道会2月合同研修会
+DESCRIPTION:【研修】\n1. 「介護施設における感染症対策について」\n   寺方老人保健施設ラガール 看護介護部長 木村 巳紀\n\n2. 「病院と介護施設等との感染症対策における連携について」\n   なにわ生野病院 感染管理認定看護師 宮本 優華\n\n3. 「地域における病院同士の感染症対策連携について」\n   守口生野記念病院 感染管理認定看護師 副主任 内田 雅和\n\n【講演】\n「日々の仕事に活かせる認知症の基礎知識」\n寝屋川生野病院 脳神経内科 部長 嶋田 裕之\n\n※午後5時30分開場\n※職員対象の研修会
+LOCATION:守口文化センター・エナジーホール (京阪電車・守口市駅前)
+ORGANIZER:弘道会
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:JST
+END:STANDARD
+END:VTIMEZONE
+END:VCALENDAR

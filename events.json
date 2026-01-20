@@ -286,7 +286,18 @@
       "location": "APイノゲート大阪「J+Kルーム」/ Web配信",
       "pdf": "pdfs/20260207_nuclear_case.pdf",
       "ical": "icals/20260207_nuclear_case.ics"
+    },
+    {
+      "id": "20260217_kodokai_feb",
+      "date": "2026-02-17",
+      "time": "18:00-20:00",
+      "title": "弘道会2月合同研修会",
+      "organizer": "弘道会",
+      "format": "現地のみ",
+      "location": "守口文化センター・エナジーホール (京阪電車・守口市駅前)",
+      "pdf": "pdfs/20260217_kodokai_feb.pdf",
+      "ical": "icals/20260217_kodokai_feb.ics"
     }
   ],
-  "last_updated": "2026-01-15 02:37:23"
+  "last_updated": "2026-01-20 02:05:22"
 }
