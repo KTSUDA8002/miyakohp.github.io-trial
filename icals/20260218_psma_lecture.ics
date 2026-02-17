@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Miyako HP//Event Calendar//JP
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:20260218_psma_lecture@miyakohp.github.io
+DTSTAMP:20260217T005200Z
+DTSTART;TZID=Asia/Tokyo:20260218T150000
+DTEND;TZID=Asia/Tokyo:20260327T150000
+SUMMARY:第16回 市民向け医療講演会「Lu-177標識PSMA製剤がもたらす前立腺がん治療の新展開」
+DESCRIPTION:演題: 放射性医薬品による新しいがん治療 ～Lu-177標識PSMA製剤による前立腺がん治療～\n\n講師: 平田 健司 先生\n北海道大学大学院 医学研究院 画像診断学教室\n\n聴講期間: 2026年2月18日(水) 15時 ～ 2026年3月27日(金) 15時\n\n※講演時間は30分程度を予定\n※参加費無料\n※申込方法: 日本アイソトープ協会ホームページ (https://www.jrias.or.jp) より申込
+LOCATION:Web開催
+ORGANIZER:日本アイソトープ協会
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:JST
+END:STANDARD
+END:VTIMEZONE
+END:VCALENDAR

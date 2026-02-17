@@ -297,7 +297,18 @@
       "location": "守口文化センター・エナジーホール (京阪電車・守口市駅前)",
       "pdf": "pdfs/20260217_kodokai_feb.pdf",
       "ical": "icals/20260217_kodokai_feb.ics"
+    },
+    {
+      "id": "20260218_psma_lecture",
+      "date": "2026-02-18",
+      "time": "配信期間: 2026年2月18日 15:00 ～ 3月27日 15:00",
+      "title": "第16回 市民向け医療講演会「Lu-177標識PSMA製剤がもたらす前立腺がん治療の新展開」",
+      "organizer": "日本アイソトープ協会",
+      "format": "オンライン",
+      "location": "Web開催",
+      "pdf": "pdfs/20260218_psma_lecture.pdf",
+      "ical": "icals/20260218_psma_lecture.ics"
     }
   ],
-  "last_updated": "2026-01-20 02:05:22"
+  "last_updated": "2026-02-17 01:04:46"
 }
