@@ -308,7 +308,18 @@
       "location": "Web開催",
       "pdf": "pdfs/20260218_psma_lecture.pdf",
       "ical": "icals/20260218_psma_lecture.ics"
+    },
+    {
+      "id": "20260328_radiology_update",
+      "date": "2026-03-28",
+      "time": "14:00-17:10",
+      "title": "第28回 関西 Radiology Update 講演会",
+      "organizer": "関西 Radiology Update バイエル薬品株式会社",
+      "format": "現地のみ",
+      "location": "ブリーゼプラザ 7F小ホール (大阪市北区梅田 2-4-9)",
+      "pdf": "pdfs/20260328_radiology_update.pdf",
+      "ical": "icals/20260328_radiology_update.ics"
     }
   ],
-  "last_updated": "2026-02-17 01:04:46"
+  "last_updated": "2026-02-20 02:55:03"
 }

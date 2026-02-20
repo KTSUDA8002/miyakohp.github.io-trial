@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Miyako HP//Event Calendar//JP
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:20260328_radiology_update@miyakohp.github.io
+DTSTAMP:20260220T025400Z
+DTSTART;TZID=Asia/Tokyo:20260328T140000
+DTEND;TZID=Asia/Tokyo:20260328T171000
+SUMMARY:第28回 関西 Radiology Update 講演会
+DESCRIPTION:テーマ: "AI 時代の臨床放射線"\n\nプログラム:\n・開会の辞 14:00\n・講演1 14:05～14:30「画像診断につなぐAI技術」\n・講演2 14:30～14:55「放射線診断のための AI 最新動向」\n・講演3 14:55～15:20「IVRにおけるAI活用の現状と可能性」\n・講演4 15:20～15:45「AI 時代の放射線医療 ～放射線治療医の視点～」\n・休憩 約20分\n・講演5 16:05～17:05「生成 AI を活用した臨床研究及び DX 化」\n・閉会の辞 17:05\n\n※参加費: 1,000円\n※講演会終了後、情報交換会の席をご用意しております
+LOCATION:ブリーゼプラザ 7F小ホール (大阪市北区梅田 2-4-9 ブリーゼタワー7階)
+ORGANIZER:関西 Radiology Update バイエル薬品株式会社
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:JST
+END:STANDARD
+END:VTIMEZONE
+END:VCALENDAR
