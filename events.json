@@ -310,6 +310,28 @@
       "ical": "icals/20260218_psma_lecture.ics"
     },
     {
+      "id": "20260324_amyloid_pet",
+      "date": "2026-03-24",
+      "time": "18:00-19:00",
+      "title": "アミロイドPET読影カンファレンス",
+      "organizer": "PDRadiopharma",
+      "format": "オンライン",
+      "location": "Zoom（Web開催）",
+      "pdf": "pdfs/20260324_amyloid_pet.pdf",
+      "ical": "icals/20260324_amyloid_pet.ics"
+    },
+    {
+      "id": "20260326_dementia_renkei",
+      "date": "2026-03-26",
+      "time": "19:00-20:10",
+      "title": "第2回 Alzheimer's Disease 認知症診療連携講演会 in 大阪",
+      "organizer": "エーザイ株式会社 / バイオジェン・ジャパン株式会社",
+      "format": "現地のみ",
+      "location": "TKPガーデンシティ大阪リバーサイドホテル 5C（大阪市都島区中野町5丁目12-30）",
+      "pdf": "pdfs/20260326_dementia_renkei.pdf",
+      "ical": "icals/20260326_dementia_renkei.ics"
+    },
+    {
       "id": "20260328_radiology_update",
       "date": "2026-03-28",
       "time": "14:00-17:10",
@@ -319,7 +341,18 @@
       "location": "ブリーゼプラザ 7F小ホール (大阪市北区梅田 2-4-9)",
       "pdf": "pdfs/20260328_radiology_update.pdf",
       "ical": "icals/20260328_radiology_update.ics"
+    },
+    {
+      "id": "20260404_lilly_alzheimer",
+      "date": "2026-04-04",
+      "time": "18:00-19:00",
+      "title": "Lilly Alzheimer's seminar",
+      "organizer": "日本イーライリリー株式会社",
+      "format": "現地のみ",
+      "location": "リーガロイヤルホテル大阪 2階 桐の間（大阪市北区中之島5-3-68）",
+      "pdf": "pdfs/20260404_lilly_alzheimer.pdf",
+      "ical": "icals/20260404_lilly_alzheimer.ics"
     }
   ],
-  "last_updated": "2026-02-20 02:55:03"
+  "last_updated": "2026-03-04 21:24:14"
 }

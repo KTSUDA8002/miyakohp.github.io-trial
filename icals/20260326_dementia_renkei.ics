@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Miyako HP//Event Calendar//JP
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:20260326_dementia_renkei@miyakohp.github.io
+DTSTAMP:20260305T000000Z
+DTSTART;TZID=Asia/Tokyo:20260326T190000
+DTEND;TZID=Asia/Tokyo:20260326T201000
+SUMMARY:第2回 Alzheimer's Disease 認知症診療連携講演会 in 大阪
+DESCRIPTION:プログラム:\n・講演1 19:00-19:20「MCIとは？ー早期介入の意義を含めてー」\n  演者: 春原 敦 先生（大阪市立総合医療センター 精神神経科 医長）\n・講演2 19:20-19:40「レカネマブ治療のフォローアップ連携について」\n  演者: 鈴木 強 先生（行岡病院 脳神経外科）\n・講演3 19:40-20:10「早期ADにおける抗体製剤治療の臨床的意義と導入の実際」\n  演者: 甲斐 利弘 先生（大阪市立総合医療センター 精神神経科 部長）\n\n※会終了後、立食による情報交換会あり
+LOCATION:TKPガーデンシティ大阪リバーサイドホテル 5C（大阪市都島区中野町5丁目12-30）
+ORGANIZER:エーザイ株式会社 / バイオジェン・ジャパン株式会社
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:JST
+END:STANDARD
+END:VTIMEZONE
+END:VCALENDAR

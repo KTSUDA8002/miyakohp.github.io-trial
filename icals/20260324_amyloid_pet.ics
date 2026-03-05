@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Miyako HP//Event Calendar//JP
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:20260324_amyloid_pet@miyakohp.github.io
+DTSTAMP:20260305T000000Z
+DTSTART;TZID=Asia/Tokyo:20260324T180000
+DTEND;TZID=Asia/Tokyo:20260324T190000
+SUMMARY:アミロイドPET読影カンファレンス
+DESCRIPTION:内容:\n1. アミロイドPETの読み方\n2. アミロイドPETの臨床応用\n3. 読影コンサルテーション\n\n講師: 松田 博史 先生（日本医科大学健診医療センター 治験・臨床研究推進室 室長）\n症例提示: 岩渕 雄 先生（慶應義塾大学医学部 放射線科学教室(診断) 専任講師）\n\n参加登録: https://zoom.us/webinar/register/WN_6bWjPeucTrKe8vJWEs3_Wg\nウェビナーID: 938 0816 4743 パスコード: 260324
+LOCATION:Zoom（Web開催）
+ORGANIZER:PDRadiopharma（PeptiDream Company）
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:JST
+END:STANDARD
+END:VTIMEZONE
+END:VCALENDAR

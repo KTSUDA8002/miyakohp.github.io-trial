@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Miyako HP//Event Calendar//JP
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:20260404_lilly_alzheimer@miyakohp.github.io
+DTSTAMP:20260305T000000Z
+DTSTART;TZID=Asia/Tokyo:20260404T180000
+DTEND;TZID=Asia/Tokyo:20260404T190000
+SUMMARY:Lilly Alzheimer's seminar
+DESCRIPTION:プログラム:\n・18:00-18:40 ご講演「神経変性×血管障害の視点で読み解く：抗体治療のゴールとリスク・ベネフィットの再考」\n  座長: 薬師寺 祐介 先生（関西医科大学 神経内科学講座 主任教授）\n  演者: 猪原 匡史 先生（国立循環器病研究センター 副院長・脳神経内科 部長）\n・18:40-19:00 ディスカッション「ケサンラの臨床的価値を考える」\n  座長: 出田 淳 先生（岸和田徳洲会病院 神経内科 副院長）\n\n※オンライン配信なし\n※会終了後、情報交換会を予定
+LOCATION:リーガロイヤルホテル大阪 2階 桐の間（大阪市北区中之島5-3-68）
+ORGANIZER:日本イーライリリー株式会社
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:JST
+END:STANDARD
+END:VTIMEZONE
+END:VCALENDAR
