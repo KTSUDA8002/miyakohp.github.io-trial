@@ -352,7 +352,40 @@
       "location": "リーガロイヤルホテル大阪 2階 桐の間（大阪市北区中之島5-3-68）",
       "pdf": "pdfs/20260404_lilly_alzheimer.pdf",
       "ical": "icals/20260404_lilly_alzheimer.ics"
+    },
+    {
+      "id": "20260408_amyloid_pet_comm",
+      "date": "2026-04-08",
+      "time": "19:00-20:00",
+      "title": "患者さん・ご家族にどう伝える？ アミロイドPET時代の認知症診療コミュニケーション実践",
+      "organizer": "PDRadiopharma",
+      "format": "オンライン",
+      "location": "Zoom（Web開催）",
+      "pdf": "pdfs/20260408_amyloid_pet_comm.pdf",
+      "ical": "icals/20260408_amyloid_pet_comm.ics"
+    },
+    {
+      "id": "20260418_delivery_pet",
+      "date": "2026-04-18",
+      "time": "19:00-20:30",
+      "title": "第17回デリバリーPETカンファレンス",
+      "organizer": "日本メジフィジックス株式会社",
+      "format": "ハイブリッド",
+      "location": "TKPガーデンシティみなとみらい 5階 ホールB（横浜市西区みなとみらい3-6-3）",
+      "pdf": "pdfs/20260418_delivery_pet.pdf",
+      "ical": "icals/20260418_delivery_pet.ics"
+    },
+    {
+      "id": "20260526_pet_ct_gynecology",
+      "date": "2026-05-26",
+      "time": "17:30-18:20",
+      "title": "症例からみる婦人科腫瘍診療におけるPET/CTの有用性",
+      "organizer": "日本メジフィジックス株式会社",
+      "format": "オンライン",
+      "location": "Zoom（Web開催）",
+      "pdf": "pdfs/20260526_pet_ct_gynecology.pdf",
+      "ical": "icals/20260526_pet_ct_gynecology.ics"
     }
   ],
-  "last_updated": "2026-03-04 21:24:14"
+  "last_updated": "2026-03-23 09:33:08"
 }

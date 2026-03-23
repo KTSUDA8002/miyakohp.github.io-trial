@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Miyako HP//Event Calendar//JP
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:20260418_delivery_pet@miyakohp.github.io
+DTSTAMP:20260323T000000Z
+DTSTART;TZID=Asia/Tokyo:20260418T190000
+DTEND;TZID=Asia/Tokyo:20260418T203000
+SUMMARY:第17回デリバリーPETカンファレンス
+DESCRIPTION:プログラム:\n・19:00-19:10 Ⅰ.国内PET市場動向 / Ⅱ.日本核医学会PET核医学分科会の活動報告\n・19:10-19:50 特別講演1「半導体PET/CTにおける18F-flutemetamolの60分および90分待機撮像の比較：同一被験者内検討」\n  演者: 曽原 康二 先生（日本医科大学付属病院 放射線科）\n・19:50-20:30 特別講演2「婦人科腫瘍領域におけるFDG-PETの使いどころ〜専門医はこう考えている〜」\n  演者: 津吉 秀昭 先生（福井大学 医学系部門 産科婦人科 講師）\n\n視聴予約: https://lpage.nmp.co.jp/17deliveryPET.html\n※当日は軽食をご用意しております
+LOCATION:TKPガーデンシティみなとみらい 5階 ホールB（横浜市西区みなとみらい3-6-3）
+ORGANIZER:日本メジフィジックス株式会社
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:JST
+END:STANDARD
+END:VTIMEZONE
+END:VCALENDAR

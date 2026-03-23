@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Miyako HP//Event Calendar//JP
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:20260408_amyloid_pet_comm@miyakohp.github.io
+DTSTAMP:20260323T000000Z
+DTSTART;TZID=Asia/Tokyo:20260408T190000
+DTEND;TZID=Asia/Tokyo:20260408T200000
+SUMMARY:患者さん・ご家族にどう伝える？ アミロイドPET時代の認知症診療コミュニケーション実践
+DESCRIPTION:認知症診療連携Webセミナー\n\nプログラム:\n・19:00-19:10 オープニングリマークス「アミロイドPET検査の依頼から結果報告まで」\n・19:10-19:50 講演「アミロイドPET検査はこう使う！地域医療連携構築と結果の伝え方」\n  演者: 鈴木 海馬 先生（医療法人 千清会 鈴木脳神経外科 院長 / Neuroscience center センター長）\n・19:50-20:00 Q&A\n\n視聴登録: https://zoom.us/webinar/register/7317699916806/WN_wzaMEVSRTmC3nOTMCEcnZg\nウェビナーID: 940 7261 2985 パスコード: 260408
+LOCATION:Zoom（Web開催）
+ORGANIZER:PDRadiopharma（PeptiDream Company）
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:JST
+END:STANDARD
+END:VTIMEZONE
+END:VCALENDAR
