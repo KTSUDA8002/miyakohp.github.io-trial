@@ -376,6 +376,17 @@
       "ical": "icals/20260418_delivery_pet.ics"
     },
     {
+      "id": "20260425_florbetapir_training",
+      "date": "2026-04-25",
+      "time": "13:00-16:00",
+      "title": "florbetapir(18F)読影トレーニング",
+      "organizer": "PDRファーマ株式会社（PDRadiopharma）",
+      "format": "現地のみ",
+      "location": "スペースアルファ三宮 中会議室1-①（神戸市中央区三宮町1-9-1 センタープラザ 6階）",
+      "pdf": "pdfs/20260425_florbetapir_training.pdf",
+      "ical": "icals/20260425_florbetapir_training.ics"
+    },
+    {
       "id": "20260526_pet_ct_gynecology",
       "date": "2026-05-26",
       "time": "17:30-18:20",
@@ -387,5 +398,5 @@
       "ical": "icals/20260526_pet_ct_gynecology.ics"
     }
   ],
-  "last_updated": "2026-03-23 09:33:08"
+  "last_updated": "2026-04-17 08:59:02"
 }

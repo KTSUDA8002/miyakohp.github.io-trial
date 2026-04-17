@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Miyako HP//Event Calendar//JP
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:20260425_florbetapir_training@miyakohp.github.io
+DTSTAMP:20260417T000000Z
+DTSTART;TZID=Asia/Tokyo:20260425T130000
+DTEND;TZID=Asia/Tokyo:20260425T160000
+SUMMARY:florbetapir(18F)読影トレーニング（オンサイト開催）
+DESCRIPTION:アミヴィッド®静注（一般名：florbetapir(18F)）による脳内アミロイドPET画像の読影方法の習得を目的としたトレーニング。\n\nプログラム:\n1. アルツハイマー病の基礎とflorbetapir(18F)検査の役割\n2. florbetapir(18F)画像の読影方法\n3. florbetapir(18F)画像読影の自己テスト\n\n講師: 石井 賢二 先生（東京都健康長寿医療センター研究所 神経画像研究チーム）\n\n申込: https://forms.office.com/r/qPTPUEBgMD\n申込締切: 2026年4月15日(水)\n※現地開催のみ、WEB開催は行いません
+LOCATION:スペースアルファ三宮 中会議室1-①（神戸市中央区三宮町1-9-1 センタープラザ 6階）
+ORGANIZER:PDRファーマ株式会社（PDRadiopharma）
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:JST
+END:STANDARD
+END:VTIMEZONE
+END:VCALENDAR
